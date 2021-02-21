@@ -1,0 +1,13 @@
+/* Global styles */
+@import "fonts.css";
+
+@import "reset.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
