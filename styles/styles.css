@@ -1,4 +1,5 @@
 /* Global styles */
+
 @import "fonts.css";
 
 @import "reset.css";
@@ -7,7 +8,71 @@
     box-sizing: border-box;
 }
 
+.container-full {
+    width: 1217px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 80px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 41px;
+    margin-right: 12px;
+}
+
+.logo span {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #233348;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    margin-left: 40px;
+}
+
+.navigation li:first-child {
+    margin-left: 0px;
+}
+
+.nav-list {
+    font-size: 18px;
+    line-height: 1.28;
+    font-weight: 400;
+    color: rgba(31, 21, 52, 0.5);
+}
+
+.nav-list-current {
+    font-weight: 700;
+    color: rgba(31, 21, 52, 1);
 }
