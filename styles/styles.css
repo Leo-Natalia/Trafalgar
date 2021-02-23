@@ -27,6 +27,7 @@ body {
 
 .button-link {
     min-width: 200px;
+    display: inline-block;
     text-align: center;
     font: inherit;
     font-size: 18px;
@@ -66,6 +67,30 @@ body {
     line-height: 1.67;
     font-weight: 300;
     color: #7D7987;
+}
+
+.title-bottom-distance {
+    margin-bottom: 32px;
+}
+
+.text-bottom-distance {
+    margin-bottom: 40px;
+}
+
+.aligning-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.align-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.distance-arrow {
+    margin-right: 14px;
 }
 
 /* Header */
@@ -124,9 +149,6 @@ header {
 /* Hero section */
 
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 192px;
 }
 
@@ -177,10 +199,6 @@ header {
     margin-bottom: 220px;
 }
 
-.services h2 {
-    margin-bottom: 32px;
-}
-
 .services>p {
     margin-bottom: 80px;
 }
@@ -224,4 +242,24 @@ header {
     line-height: 1.75;
     font-weight: 300;
     color: #7D7987;
+}
+
+/* Healthcare providers section */
+
+.healthcare-providers {
+    margin-bottom: 229px;
+}
+
+.healthcare-providers img {
+    margin-right: 137px;
+}
+
+/* Mobile apps section */
+
+.mobile-apps {
+    margin-bottom: 266px;
+}
+
+.mobile-apps-content {
+    margin-right: 70px;
 }
