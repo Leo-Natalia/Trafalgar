@@ -413,3 +413,72 @@ header {
     display: inline-flex;
     align-items: center;
 }
+
+/* Footer */
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding-top: 118px;
+    padding-bottom: 110px;
+    color: white;
+}
+
+.aligning-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-white span {
+    color: white;
+}
+
+.logo-white {
+    margin-bottom: 17px;
+}
+
+.credentials {
+    width: 390px;
+}
+
+.credentials h2 {
+    font-size: 0px;
+}
+
+.general-information {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.56;
+    margin-bottom: 30px;
+}
+
+.credentials p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;   
+}
+
+.navigation-footer h3 a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.navigation-footer h3 {
+    margin-bottom: 27px;
+}
+
+.navigation-footer li a {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.navigation-footer li {
+    margin-bottom: 27px;
+}
+
+.navigation-footer li:last-child {
+    margin-bottom: 0px;
+}
