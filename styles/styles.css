@@ -263,11 +263,15 @@ header {
 /* Customer section */
 
 .customer {
+    margin-bottom: 222px;
+}
+
+.customer-feedback {
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
     padding: 64px 118px 79px;
     overflow: hidden;
-    margin-bottom: 222px;
+    margin-bottom: 42px;
 }
 
 .white-title {
@@ -279,17 +283,19 @@ header {
     background-color: #FFFFFF;
 }
 
-.customer img {
-    margin-right: 29px;
-}
-
 .customer h2 {
     margin-bottom: 65px;
 }
 
-.customer-distance-content {
+.customer-content img {
+    margin-right: 29px;
+}
+
+.customer-content {  
+    display: flex;
+    align-items: center;
     white-space: nowrap;
-    margin-right: 110px;
+    margin-right: 120px;
 }
 
 .name {
@@ -311,6 +317,43 @@ header {
     line-height: 1.58;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.slider {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider button {
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.arrow-left {
+    transform: rotate(-180deg);
+    margin-right: 90px;
+}
+
+.arrow-disabled {
+    opacity: 0.4;
+}
+
+.block-circles li {
+    margin-right: 18px;
+}
+
+.block-circles li:last-child {
+    margin-right: 0px;
+}
+
+.block-circles {
+    margin-right: 90px;
+}
+
+.cirkle-disabled {
+    opacity: 0.3;
 }
 
 /* Article section */
